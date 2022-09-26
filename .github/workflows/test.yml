@@ -40,9 +40,4 @@ jobs:
           ls content/ -all;    
           find ./content -mindepth 1 ! -regex '^./content/3d\(/.*\)?' -delete
           ls content/ -all;  
-          
-      - name: Remove unwanted folders test 2
-        run: |
-          ls content/ -all;    
-          find ./content -mindepth 1 ! -regex '^./content/(.*)/3d\(/.*\)?' -delete
-          ls content/ -all;  
+          find ./content
