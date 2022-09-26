@@ -38,4 +38,5 @@ jobs:
       - name: Remove unwanted folders
         run: |
           ls content/ -all;    
-          ls content/ ;   
+          ls content/english ;   
+          ls content/russain ;   
