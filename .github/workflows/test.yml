@@ -38,5 +38,5 @@ jobs:
       - name: Remove unwanted folders
         run: |
           ls content/ -all;  
-          find ./content/english -mindepth 1 ! -regex '^./content/english/3d\(/.*\)?' -delete
+          find ./content -mindepth 1 ! -regex '^./content/english/3d\(/.*\)?' -delete
           find ./content
